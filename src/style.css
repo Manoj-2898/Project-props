@@ -1,0 +1,88 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: Poppins,sans-serif;
+  background-color: rgba(255, 255, 255, 0.762);
+}
+
+.app{
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+.title{
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.sectionTitle{
+  margin-top: 40px;
+  font-size: 28px;
+}
+.card{
+  background-color: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(196, 194, 194, 0.959);
+  margin-bottom: 20px;
+}
+
+.profileCard{
+  display:flex;
+  align-items: center;
+  gap:20px;
+}
+
+.profilePicture{
+  width: 110px;
+  height:110px;
+  border-radius:12px;
+}
+
+.profileInfo h2 {
+  margin: 0;
+}
+
+.muted {
+  color: rgba(174, 168, 168, 0.999);
+}
+
+.profileSkills{
+  margin-top: 10px;
+}
+
+.skillBadge{
+  background-color: rgb(217, 222, 226);
+  padding: 6px 12px;
+  border-radius: 20px;
+  margin-right: 8px;
+  font-size: 14px;
+}
+
+.projectsContainer{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(260px,1fr));
+  gap:20px;
+}
+
+.projectCard{
+  text-align: center;
+}
+
+.projectPic{
+  width:100%;
+  height:150px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.techBadge{
+  background-color: #dbdbff;
+  color: rgb(30, 86, 255);
+  padding: 4px 10px;
+  border-radius: 20px;
+  margin: 4px;
+  font-size: 14px;
+}
