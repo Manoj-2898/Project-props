@@ -27,6 +27,7 @@ export const projects=[
     title: "E-commerce UI",
     description: "Beautiful e-commerce front-end design.",
     tech:["React","CSS"],
-    image: "https://picsum.photos/300?random=3"
+    image: "https://picsum.photos/300?random=3",
+    link: "https://manoj-2898.github.io/E-commerce-UI/"
   }
 ];
