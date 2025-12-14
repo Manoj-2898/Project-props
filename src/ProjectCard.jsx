@@ -1,7 +1,7 @@
-function ProjectCard({title,description,tech,image}){
+function ProjectCard({title,description,tech,image,link}){
   return(
     <>
-    <div className="card projectCard">
+    <a href={link} target="blank" rel="noreferrer" className="card projectCard">
       <img src={image} alt={title} className="projectPic" />
       <div className="projectInfo">
         <h2>{title}</h2>
@@ -12,7 +12,7 @@ function ProjectCard({title,description,tech,image}){
           ))}
         </div>
       </div>
-    </div>
+    </a>
     </>
   );
 }

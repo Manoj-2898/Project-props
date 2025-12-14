@@ -66,9 +66,11 @@ body{
   gap:20px;
 }
 
-.projectCard{
-  text-align: center;
+.projectCard {
+  text-decoration: none;
+  color: inherit;
 }
+
 
 .projectPic{
   width:100%;

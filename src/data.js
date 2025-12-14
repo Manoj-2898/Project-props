@@ -12,7 +12,8 @@ export const projects=[
     title: "Portfolio Website",
     description: "A personal portfolio built with React.",
     tech:["React","CSS"],
-    image: "https://picsum.photos/300?random=1"
+    image: "https://picsum.photos/300?random=1",
+    link: "https://manoj-2898.github.io/Portfolio-Website/"
   },
   {
     id:2,

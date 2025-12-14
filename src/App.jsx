@@ -24,6 +24,7 @@ function App(){
           description={p.description}
           tech={p.tech}
           image={p.image}
+          link={p.link}
           />
         ))}
       </div>
