@@ -1,7 +1,12 @@
 function ProjectCard({title,description,tech,image,link}){
   return(
     <>
-    <a href={link} target="blank" rel="noreferrer" className="card projectCard">
+    <a
+      href={link}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="card projectCard"
+    >
       <img src={image} alt={title} className="projectPic" />
       <div className="projectInfo">
         <h2>{title}</h2>

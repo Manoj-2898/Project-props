@@ -23,7 +23,7 @@ export const projects=[
     image: "https://picsum.photos/300?random=2"
   },
   {
-    id:1,
+    id:3,
     title: "E-commerce UI",
     description: "Beautiful e-commerce front-end design.",
     tech:["React","CSS"],
