@@ -20,7 +20,8 @@ export const projects=[
     title: "Task Manager App",
     description: "A simple to-do app with clean UI.",
     tech:["JavaScript","HTML","CSS"],
-    image: "https://picsum.photos/300?random=2"
+    image: "https://picsum.photos/300?random=2",
+    link: "https://github.com/Manoj-2898" // temporary
   },
   {
     id:3,
